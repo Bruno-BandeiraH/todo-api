@@ -6,6 +6,7 @@
 =================
 
    * [Preview](#Preview)
+   * [Como usar](#Como)
    * [Tecnologias](#Tecnologias)
 
 
