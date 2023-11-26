@@ -17,6 +17,30 @@ public class Todo {
     private Integer id;
     private String nome;
     private String descricao;
-    private boolean finalizado;
-    private LocalDate dataCriacao = LocalDate.now();
+    private boolean finalizado = false;
+
+    // GETTERS E SETTERS 
+
+    public Integer getId() {
+        return id;
+    }
+    public String getNome() {
+        return nome;
+    }
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+    public String getDescricao() {
+        return descricao;
+    }
+    public void setDescricao(String descricao) {
+        this.descricao = descricao;
+    }
+    public boolean isFinalizado() {
+        return finalizado;
+    }
+    public void setFinalizado(boolean finalizado) {
+        this.finalizado = finalizado;
+    }
+
 }
