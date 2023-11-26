@@ -10,11 +10,11 @@ import jakarta.persistence.Table;
 
 @Entity
 @Table(name = "todos")
-public class TodoEntity {
+public class Todo {
     
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private Integer id;
     private String nome;
     private String descricao;
     private boolean finalizado;
